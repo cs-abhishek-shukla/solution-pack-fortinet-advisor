@@ -22,6 +22,8 @@ FortiAI now includes voice-to-natural-language functionality, enabling hands-fre
 - Enhanced Usability: Issue commands without typing, ideal for multitasking.
 - Efficiency: Quickly perform actions through voice, reducing operational time.
 
+> [!Note]
+> The *Voice Recognition* feature is currently unsupported on the Firefox browser as the webkit `SpeechRecognition` is not compatible with Mozilla Firefox. Hence, the mic button is not available when the FortiSOAR&trade; environment is accessed using the Firefox browser.
 
 ## Data Privacy Notice 
 

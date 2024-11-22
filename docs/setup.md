@@ -72,6 +72,9 @@ The following permission allow a user to interact with the **FortiSOAR AI Assist
 - **One Command at a Time**: Issue one command at a time to ensure accurate processing.
 - **Pause Between Commands**: Allow brief pauses to enable FortiAI to process each command.
 
+> [!Note]
+> The *Voice Recognition* feature is currently unsupported on the Firefox browser as the webkit `SpeechRecognition` is not compatible with Mozilla Firefox. Hence, the mic button is not available when the FortiSOAR&trade; environment is accessed using the Firefox browser.
+
 # Configuration
 
 The **FortiAI** solution depends on the following connectors and widgets:
