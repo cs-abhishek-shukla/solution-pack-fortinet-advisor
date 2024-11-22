@@ -1,6 +1,6 @@
 # Release Information
 
-* **Version**: 3.0.0 ![Preview icon](./docs/res/icon-preview.svg)  
+* **Version**: 3.1.0 ![Preview icon](./docs/res/icon-preview.svg)  
 * **Certified**: Yes
 * **Publisher**: Fortinet
 * **Compatible Version**: 7.6.0 and later
@@ -14,6 +14,14 @@
 FortiAI is a context-aware GenAI security assistant that transforms how security professionals operate and interact with threat alerts. It simplifies complex analysis and response tasks, enabling users to issue natural language commands for data analysis, threat identification, and remediation within FortiSOAR. With capabilities like generating playbooks, escalating alerts to incidents, setting up war rooms, and crafting [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) expressions, FortiAI accelerates response cycles and enhances accuracy. It supports various functions, including blocking and enriching indicators, linking records, and creating comprehensive response plans, empowering security teams to address modern threats efficiently and effectively.
 
 Its unique feature, among others, is its ability to generate playbook blocks tailored to scenarios defined by you, giving you a head start in automating and enhancing your use cases. Whether you are a seasoned playbook developer or just starting out, FortiAI is your go-to partner for streamlined and efficient playbook design.
+
+## Voice Support Overview
+
+FortiAI now includes voice-to-natural-language functionality, enabling hands-free interaction. This feature allows users to give voice commands for tasks such as generating playbooks, filtering records, or blocking indicators, streamlining workflows and increasing accessibility. This feature has multiple benefits like the following:
+
+- Enhanced Usability: Issue commands without typing, ideal for multitasking.
+- Efficiency: Quickly perform actions through voice, reducing operational time.
+
 
 ## Data Privacy Notice 
 
