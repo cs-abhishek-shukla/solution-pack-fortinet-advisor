@@ -43,6 +43,9 @@ Simple tweaks to the input prompts could improve the playbook block generation p
 
     >For example, Check the IP's reputation using VirusTotal. If it's considered malicious, set the indicator reputation as malicious. If it's considered suspicious, set the indicator reputation as suspicious. Otherwise, set the indicator reputation as good.
 
+> [!Note]
+> For more filtering prompts, refer to [Filtering Records](./prompts-for-filtering-records.md).
+
 ## Utilizing your playbook collections to train the solution
 
 By default, FortiAI is trained using the large collection of use cases available on the [FortiSOAR Content Hub](https://fortisoar.contenthub.fortinet.com/list.html). 

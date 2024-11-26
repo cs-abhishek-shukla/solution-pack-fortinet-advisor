@@ -84,7 +84,7 @@ The **FortiAI** solution depends on the following connectors and widgets:
 >[!NOTE]
 >The AI Assistant Utils connector does not require a configuration. For more details, see the [AI Assistant Utils Connector](https://docs.fortinet.com/fortisoar/connectors/ai-assitant-utils) document.
 
-- The **AI Assistant** widget to add the **FortiSOAR AI Assistant** bot to the FortiSOAR user interface. For more details, see the [AI Assistant Widget](https://docs.fortinet.com/fortisoar/connectors/ai-assitant-utils) document.
+- The **AI Assistant** widget to add the **FortiSOAR AI Assistant** bot to the FortiSOAR user interface. For more details, see the [AI Assistant Widget](https://github.com/fortinet-fortisoar/widget-ai-assistant/blob/develop/README.md) document.
 
 - The **OpenAI** connector to get a response from **FortiSOAR AI Assistant**.
     - To configure and use the OpenAI connector, see the [OpenAI Connector](https://docs.fortinet.com/fortisoar/connectors/openai) document.

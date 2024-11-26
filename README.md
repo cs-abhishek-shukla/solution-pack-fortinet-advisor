@@ -37,6 +37,10 @@ For any further questions or concerns about your privacy, refer to [OpenAI’s p
 
 - [Advanced Usage](./docs/advanced-usage.md)
 - [Troubleshooting](./docs/troubleshooting.md)
+- Try and be astonished!
+    - [Prompts for filtering *alert* records](./docs/prompts-for-filtering-alert-records.md)
+    - [Prompts for filtering *incident* records](./docs/prompts-for-filtering-incident-records.md)
+    - [Prompts for filtering *indicator* records](./docs/prompts-for-filtering-indicator-records.md)
 
 # Next Steps
 

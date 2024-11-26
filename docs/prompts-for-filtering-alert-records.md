@@ -1,15 +1,11 @@
 | [Home](../README.md) |
 |----------------------|
 
-# Filtering Records
+# Filtering alerts through prompts
 
-This guide contains prompts for efficiently filtering records using the FortiAI Assistant. Each prompt focuses on specific filtering criteria, allowing users to retrieve relevant data quickly. Some prompts include screenshots to help illustrate expected outcomes.
+This guide contains prompts that focus on filtering active and historical alerts to streamline threat investigation and response. Prompts in this section allow users to retrieve alerts based on criteria such as severity, status, priority, or assigned user, providing a targeted view of alerts under investigation or requiring immediate attention.
 
-## Alerts
-
-The Alerts section focuses on filtering active and historical alerts to streamline threat investigation and response. Prompts in this section allow users to retrieve alerts based on criteria such as severity, status, priority, or assigned user, providing a targeted view of alerts under investigation or requiring immediate attention.
-
-### Example: Retrieve Alerts Under Investigation
+### Example: Retrieve alerts under investigation
 
 This section demonstrates prompts for isolating alerts whose *Status* is **Investigating**. This example provides prompts along with the expected outcome, helping users quickly access alerts that require further analysis or follow-up actions.
 
@@ -41,7 +37,7 @@ This example demonstrates how to filter alerts based on both severity and status
 
 Verify that the results include only high-severity open alerts.
 
-### Example: Retrieve High-Severity Priority 1 Alerts
+### Example: Retrieve high-severity priority 1 alerts
 
 This example demonstrates how to filter alerts based on both severity and priority, helping users prioritize urgent cases.
 
@@ -53,11 +49,11 @@ This example demonstrates how to filter alerts based on both severity and priori
 
 ![Priority 1, high-severity alerts filtered](./res/filter-alert-priority-1-high.png)
 
-### Review Results
+### Review results
 
 Verify that the results include only alerts with priority weight of 1 and a severity of high.
 
-### Example: Retrieve Alerts Assigned to Me
+### Example: Retrieve alerts assigned to me
 
 This example demonstrates how to filter alerts that are assigned to the current user, allowing you to quickly view alerts requiring your attention.
 
@@ -69,9 +65,37 @@ This example demonstrates how to filter alerts that are assigned to the current 
 
 ![Alerts assigned to self-user filtered](./res/filter-alert-assigned-self.png)
 
-### Review Results
+### Review results
 
 Verify that the results include only the alerts that are assigned to the current user, ensuring no other alerts are included.
+
+### Example: Retrieve alerts generated between a date range
+
+This example demonstrates how to filter alerts based on a specific date range, helping users focus on alerts generated within a defined time period.
+
+* **Prompt**:  
+   > _"Give me all alerts generated in the last 15 days."_
+
+* **Expected Outcome**:  
+   Displays only alerts that were generated between the specified date range.
+
+![Alerts generated between October 1 and 15, 2024](./res/filter-alert-date-range.png)
+
+### Review Results
+
+Verify that the results include only alerts generated within the specified date range, ensuring no alerts outside the period are displayed.
+
+### Other examples
+
+Similarly, you can use the following prompts to filter alert records.
+
+1. Give me alerts assigned to <user-1>.
+ 
+2. Give me all alerts generated between October 1, 2024, and October 15, 2024
+ 
+3. Show me all alerts where the *severity* is either high or critical, the status is open or in progress, and the type is malware or phishing. The alerts should have been created on within the last 7 days, and the source IP should start with '192.168.1.
+ 
+4. List all in-progress alerts, excluding those of the phishing or suspicious type.
 
 # Next Steps
 
