@@ -36,6 +36,7 @@ For any further questions or concerns about your privacy, refer to [OpenAI’s p
 ## Additional Resources 
 
 - [Advanced Usage](./docs/advanced-usage.md)
+- [Troubleshooting](./docs/troubleshooting.md)
 
 # Next Steps
 

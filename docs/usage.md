@@ -1,6 +1,8 @@
 | [Home](../README.md) |
 |----------------------|
 
+[TOC]
+
 # Usage
 
 The **FortiAI** solution pack offers a variety of functions through its **AI Assistant** to managing and automating tasks related to cybersecurity workflows. Following is an overview of the supported functions:
@@ -272,7 +274,7 @@ A common use case for filtering records is narrowing down alerts based on severi
 
 ### Integrate Filtering Actions into Workflow
 
-- Incorporate filtering into your workflow to streamline data review processes. For example, apply filters to prioritize alerts daily, ensuring high-severity incidents are addressed first. Filters can also be integrated into playbooks, allowing automation of common data refinement tasks.
+- Incorporate filtering into your workflow to streamline data review processes. For example, apply filters to prioritize alerts daily, ensuring high-severity incidents are addressed first.
 
 Filtering records is an effective tool within FortiSOAR to enhance data visibility and focus on critical information. By following these steps and using the FortiAI assistant’s capabilities, users can efficiently manage records and improve their response to threats.
 
