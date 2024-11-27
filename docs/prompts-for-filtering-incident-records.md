@@ -23,7 +23,7 @@ Verify that the results include only incidents with an ID greater than 400, ensu
 
 ### Other examples
 
-Similarly, you can use the following prompts to filter alert records.
+Similarly, you can use the following prompts to filter incident records.
 
 1. Give me incidents led by me.
  
