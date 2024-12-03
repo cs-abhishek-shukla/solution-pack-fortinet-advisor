@@ -76,14 +76,80 @@ After entering the prompt the text may still be visible; however, the text input
 
 ## OpenAI Error Messages
 
-Cannot add messages to `thread_123ndasda341` while a run thread `run_134314hh1` is active.
+### Error: Cannot add messages to `thread_123ndasda341` while a run thread `run_134314hh1` is active.
 
 **Resolution**
 - Try to cancel the RUN on OpenAI platform - while loading the same thread on assistant using URL - https://platform.openai.com/playground/assistants?mode=assistant&assistant=asst_id&thread=thread_id and cancel the run
 
-OR
+    OR
 
 - Clear the Conversation
+
+### Error: `Run Cancelled Exception` as toast notification
+
+This error typically occurs when:  
+- A subsequent prompt is sent in the same conversation.  
+- A prompt involves filtering across multiple modules (e.g., incidents and alerts).  
+
+>[!Note]
+>Filtering operations do not support multiple modules simultaneously.This usually happens on subsequent prompting or with prompts including multiple modules.
+>For example: *Fetch alerts with severity high, reputation good, and incidents with severity high*
+
+#### Resolution
+
+1. **Clear the Conversation**:  
+   - End the current conversation to reset the context.
+
+2. **Rephrase the Prompt**:  
+   - Simplify the request to focus on a single module at a time.  
+   - Avoid combining filtering criteria across different modules (e.g., incidents and alerts).
+
+3. **Send the Prompt Again**:  
+   - Issue the rephrased prompt in a new conversation to ensure proper execution.
+
+### Filters Involving DateTime  
+
+DateTime filtering may sometimes yield unexpected results due to default behaviors or incomplete prompts. Follow these steps to ensure accurate outcomes.
+
+#### Resolution
+
+1. **Specify the Timezone**:  
+   - By default, DateTime filters may use UTC rather than your local timezone.  
+   - Rephrase your prompt to explicitly include your preferred timezone.  
+
+     **Example**:  
+     > _"Filter alerts created on 1st December 2024. Consider local timezone."_
+
+2. **Include the Year**:  
+   - Omitting the year in DateTime filters can lead to inaccurate results.  
+   - Always include the year to ensure the system applies the correct date range.  
+
+     **Example**:  
+     > _"Filter alerts created on 1st December 2024."_
+
+3. **Account for the Entire Day**:  
+   - If only a date or day is mentioned, the filter might not cover all events of that day.  
+   - Rephrase the prompt to explicitly request filtering for the entire day.  
+
+     **Example**:  
+     > _"Filter alerts created on 1st December 2024. Consider entire day."_
+
+### Field Names in Filters Do Not Update  
+
+In some cases, the field names in filters may not reflect changes after subsequent prompts. Follow these steps to resolve the issue.
+
+#### Resolution
+
+1. **Refresh the Page**:  
+   - Reload the page to ensure the filters reflect the updated field names.  
+
+2. **Clear and Reapply the Filter**:  
+   - Click ![](./res/icon-clear-filter.svg) to remove the current filter.  
+   - Reapply the filter by clicking on the filter hyperlink, within the bot conversation, again.  
+
+
+>[!Note]
+>This issue has been resolved in **FortiSOAR v7.6.1** and later.
 
 # Next Steps
 
