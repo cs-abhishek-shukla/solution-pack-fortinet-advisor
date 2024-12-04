@@ -27,11 +27,11 @@ Similarly, you can use the following prompts to filter incident records.
 
 1. Give me incidents led by me.
  
-2. Give me incidents created today
+2. Give me incidents created in the last 7 days.
  
-3. Give me incidents created the today, tagged as super, and not led by <user-1>
+3. Give me incidents tagged as super, and not led by <user-1>.
  
-4. Give me incidents created in last 7 days.
+4. Fetch incidents of type phishing which are in containment phase.
 
 # Next Steps
 

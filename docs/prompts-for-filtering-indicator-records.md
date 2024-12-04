@@ -5,9 +5,9 @@
 
 This guide contains prompts for efficiently filtering indicators using the FortiAI Assistant. Each prompt focuses on some possible filtering criteria to streamline threat investigation and response.
 
-### Example: Retrieve Incidents with ID Greater Than 400
+### Example: Retrieve Indicators of Type URL
 
-This example demonstrates how to filter incidents based on their ID, allowing users to focus on incidents with an ID value exceeding a specific threshold.
+This example demonstrates how to filter indicators based on their type (URL), allowing users to focus on indicators of a specific type.
 
 * **Prompt**:  
    > _"Give me all indicators of type URL."_
@@ -17,7 +17,7 @@ This example demonstrates how to filter incidents based on their ID, allowing us
 
 ### Review Results
 
-Verify that the results include only incidents with an ID greater than 400, ensuring no incidents with a lower ID are included.
+Verify that the results include only indicators of *type* **URL**.
 
 ### Other examples
 

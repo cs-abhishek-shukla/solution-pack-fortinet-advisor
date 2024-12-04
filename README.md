@@ -15,12 +15,19 @@ FortiAI is a context-aware GenAI security assistant that transforms how security
 
 Its unique feature, among others, is its ability to generate playbook blocks tailored to scenarios defined by you, giving you a head start in automating and enhancing your use cases. Whether you are a seasoned playbook developer or just starting out, FortiAI is your go-to partner for streamlined and efficient playbook design.
 
+## Filtering Feature Overview  
+
+FortiAI now includes advanced filtering functionality, allowing users to refine their search for records based on specific criteria. This feature empowers users to quickly retrieve targeted data, such as alerts, incidents, or indicators, improving workflow efficiency. The benefits of this feature include:
+
+- **Enhanced Precision**: Apply specific filters based on severity, status, or other criteria to retrieve exactly what you need.
+- **Time-Saving**: Quickly narrow down search results, reducing the time spent sifting through data and improving decision-making.
+
 ## Voice Support Overview
 
 FortiAI now includes voice-to-natural-language functionality, enabling hands-free interaction. This feature allows users to give voice commands for tasks such as generating playbooks, filtering records, or blocking indicators, streamlining workflows and increasing accessibility. This feature has multiple benefits like the following:
 
-- Enhanced Usability: Issue commands without typing, ideal for multitasking.
-- Efficiency: Quickly perform actions through voice, reducing operational time.
+- **Enhanced Usability**: Issue commands without typing, ideal for multitasking.
+- **Efficiency**: Quickly perform actions through voice, reducing operational time.
 
 > [!Note]
 > The *Voice Recognition* feature is currently unsupported on the Firefox browser as the webkit `SpeechRecognition` is not compatible with Mozilla Firefox. Hence, the mic button is not available when the FortiSOAR&trade; environment is accessed using the Firefox browser.

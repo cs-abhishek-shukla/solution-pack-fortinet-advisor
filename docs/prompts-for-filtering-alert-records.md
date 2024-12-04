@@ -91,11 +91,15 @@ Similarly, you can use the following prompts to filter alert records.
 
 1. Give me alerts assigned to <user-1>.
  
-2. Give me all alerts generated between October 1, 2024, and October 15, 2024
+2. Give me all alerts created between October 1, 2024, and October 15, 2024
  
-3. Show me all alerts where the *severity* is either high or critical, the status is open or in progress, and the type is malware or phishing. The alerts should have been created on within the last 7 days, and the source IP should start with '192.168.1.
+3. Show me all alerts where the *severity* is either high or critical, the status is open or in progress, and the type is malware or phishing. The alerts should have been created within the last 7 days, and the source IP should start with `192.168.1`.
  
 4. List all in-progress alerts, excluding those of the phishing or suspicious type.
+
+5.  Filter out all the alerts with technique ID `T1074.001`.
+
+6. Find alerts triggered by the rule `PH_RULE_UEBA_AI_FILE_WRITTEN`.
 
 # Next Steps
 
