@@ -69,21 +69,21 @@ This example demonstrates how to filter alerts that are assigned to the current 
 
 Verify that the results include only the alerts that are assigned to the current user, ensuring no other alerts are included.
 
-### Example: Retrieve alerts generated between a date range
+### Example: Retrieve alerts created between a date range
 
-This example demonstrates how to filter alerts based on a specific date range, helping users focus on alerts generated within a defined time period.
+This example demonstrates how to filter alerts based on a specific date range, helping users focus on alerts created within a defined time period.
 
 * **Prompt**:  
-   > _"Give me all alerts generated in the last 15 days."_
+   > _"Give me all alerts created in the last 15 days."_
 
 * **Expected Outcome**:  
-   Displays only alerts that were generated between the specified date range.
+   Displays only alerts that were created between the specified date range.
 
-![Alerts generated between October 1 and 15, 2024](./res/filter-alert-date-range.png)
+![Alerts created between October 1 and 15, 2024](./res/filter-alert-date-range.png)
 
 ### Review Results
 
-Verify that the results include only alerts generated within the specified date range, ensuring no alerts outside the period are displayed.
+Verify that the results include only alerts created within the specified date range, ensuring no alerts outside the period are displayed.
 
 ### Other examples
 
